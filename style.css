@@ -20,8 +20,31 @@ html,body{
   width: 200px;
   border: 1px solid black;
   display:flex;
-  align-items: centered;
-  justify-content: centered;
+  align-items: center;
+  justify-content: center;
 }
 
+#square:hover{
+  background-color:red;
+}
 
+#circle{
+  border-radius: 50%;
+}
+
+#circle:hover{
+  background-color:green;
+}
+
+#diamond{
+  rotate: 45deg;
+  margin-top:45px;
+}
+
+#diamond:hover{
+  background-color:blue;
+}
+
+#diamond h1{
+  rotate: -45deg;
+}
