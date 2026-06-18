@@ -17,6 +17,12 @@ html,body{
   justify-content: center;
 }
 
+#box{
+  display:flex;
+  gap:50px;
+  align-items:center;
+}
+
 .shape{
   height: 200px;
   width: 200px;
